@@ -26,8 +26,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/jung-kurt/gofpdf"
 	"golang.org/x/image/tiff"
+
+	"github.com/FinFantasy/gofpdf"
 )
 
 // RegisterReader registers a TIFF image, adding it to the PDF file but not
